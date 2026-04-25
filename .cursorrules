@@ -1,0 +1,11 @@
+# AI Coding Instructions for Micro-Scholar
+
+1. **Context Awareness**: 始终优先参考 `project_rules.md`。
+2. **Implementation Strategy**: 
+   - 优先实现本地 SQLite 数据库结构（schema.sql）。
+   - 飞书同步模块必须支持“增量更新”，不要重复拉取未修改的文档。
+3. **No Hallucinations**: 
+   - 解析飞书 Docsx JSON 时，如果字段不确定，必须提示用户提供真实的 API Response 样本。
+   - 禁止在代码中硬编码任何 AppSecret，一律使用 `os.getenv`。
+4. **Hardware Specifics**: 
+   - 考虑到用户在 i.MX6ULL 开发环境，代码应能在 Ubuntu/Debian 环境下无损运行。
