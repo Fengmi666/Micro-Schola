@@ -1,0 +1,333 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": false,
+    "items": [
+      {
+        "block_id": "QQI5d2v3woTAqnxdcHgc9Ep8ned",
+        "block_type": 1,
+        "children": [
+          "ANp3dDGvDofRi8xwRtWcZyDAneb",
+          "B4d9dze7LodzPVx6d0ocBMkInGe",
+          "JSHOdQhYmod9XrxHuAucHGu9nFU",
+          "DXsfdEccxokoR9x499McxspNnqA",
+          "SA4gd3Q7toyt40xFUJUcqbYcnAf"
+        ],
+        "page": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "Micro-Schola",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1
+          }
+        },
+        "parent_id": ""
+      },
+      {
+        "block_id": "ANp3dDGvDofRi8xwRtWcZyDAneb",
+        "block_type": 5,
+        "heading3": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "第一步：准备一篇测试用的飞书文档",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "QQI5d2v3woTAqnxdcHgc9Ep8ned"
+      },
+      {
+        "block_id": "B4d9dze7LodzPVx6d0ocBMkInGe",
+        "block_type": 13,
+        "children": [
+          "UQs8dRof1oIufExELwbcDPY0nwe"
+        ],
+        "ordered": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "在你的飞书中，新建一篇",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "新版文档 (文档/Docsx)",
+                "text_element_style": {
+                  "bold": true,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false,
+            "sequence": "1"
+          }
+        },
+        "parent_id": "QQI5d2v3woTAqnxdcHgc9Ep8ned"
+      },
+      {
+        "block_id": "UQs8dRof1oIufExELwbcDPY0nwe",
+        "block_type": 13,
+        "ordered": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "在里面随便写几段话（比如复制一段文献摘要、写几个 Linux 命令），最好再随便插入一张图片，以此来测试后续 AI 能否准确地“只提取文本，过滤图片”。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false,
+            "sequence": "1"
+          }
+        },
+        "parent_id": "B4d9dze7LodzPVx6d0ocBMkInGe"
+      },
+      {
+        "block_id": "JSHOdQhYmod9XrxHuAucHGu9nFU",
+        "block_type": 13,
+        "children": [
+          "TxpMdFbOoozyQOxGAczci6jwnPh",
+          "ZL7EdxGz2o0snoxh0kYcZpFPnCS"
+        ],
+        "ordered": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "获取 Document ID",
+                "text_element_style": {
+                  "bold": true,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "：观察浏览器地址栏的 URL，或者在飞书客户端点击“复制链接”。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false,
+            "sequence": "auto"
+          }
+        },
+        "parent_id": "QQI5d2v3woTAqnxdcHgc9Ep8ned"
+      },
+      {
+        "block_id": "TxpMdFbOoozyQOxGAczci6jwnPh",
+        "block_type": 12,
+        "bullet": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "链接通常长这样：",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "https://your-company.feishu.cn/docx/doxcnXXXXXXXXXXXXXXXXXXXXX",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "JSHOdQhYmod9XrxHuAucHGu9nFU"
+      },
+      {
+        "block_id": "ZL7EdxGz2o0snoxh0kYcZpFPnCS",
+        "block_type": 12,
+        "bullet": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "这里的 ",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "doxcnXXXXXXXXXXXXXXXXXXXXX",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": " 就是我们要用到的 ",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "Document ID",
+                "text_element_style": {
+                  "bold": true,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "。请把它复制下来备用。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "JSHOdQhYmod9XrxHuAucHGu9nFU"
+      },
+      {
+        "block_id": "DXsfdEccxokoR9x499McxspNnqA",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "height": 489,
+          "scale": 1,
+          "token": "UVmpbmT5uoGIV9xQoKKcfMdbn9c",
+          "width": 1096
+        },
+        "parent_id": "QQI5d2v3woTAqnxdcHgc9Ep8ned"
+      },
+      {
+        "block_id": "SA4gd3Q7toyt40xFUJUcqbYcnAf",
+        "block_type": 2,
+        "parent_id": "QQI5d2v3woTAqnxdcHgc9Ep8ned",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      }
+    ]
+  },
+  "msg": "success"
+}
